@@ -58,7 +58,7 @@ Running a SonarQube analysis with Maven is straighforward. You just need to run 
 
 mvn sonar:sonar \
   -Dsonar.host.url=http://localhost:9000 \
-  -Dsonar.login=e7e8a494163b95706d8e52d3435f514c96383161
+  -Dsonar.login=
   
 Please visit the official documentation of the SonarQube Scanner for Maven for more details.
 
