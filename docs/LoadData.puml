@@ -1,0 +1,15 @@
+http://plantuml.com/activity-diagram-beta
+@startuml
+| PostGresQL |
+start
+    : Проверить наличие данных в таблицах PG;
+|#AntiqueWhite| MySQL |
+
+    if (Вложение успешно загружено?) then (Да)
+        :Добавить вложение к объекту;
+    else (Нет)
+        :Добавить информацию об ошибке к объекту;
+    endif
+| PostGresQL |
+stop
+@enduml
